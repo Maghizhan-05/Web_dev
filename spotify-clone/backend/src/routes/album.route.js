@@ -2,8 +2,8 @@ import { Router } from "express";
 
 const router = Router();
 
-router.get("/", (req, res) => {
-  res.send("album route with get Method");
+router.get("/callback", (req, res) => {
+  res.send("Ablum route with GET method");
 });
 
 export default router;
